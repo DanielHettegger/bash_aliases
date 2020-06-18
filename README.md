@@ -1,2 +1,4 @@
-# bash_aliases
-Bash aliases i use daily
+# Bash Aliases
+
+usage: add this to your .bashrc
+`source /path/to/aliases/aliases.bash`
