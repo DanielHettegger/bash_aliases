@@ -3,7 +3,7 @@ alias bashrc='vim ~/.bashrc && . ~/.bashrc'
 alias find_file='find / -nowarn 2>&1 | grep -v "Permission denied" | grep'
 alias forcekill='kill -9'
 alias status='git status'
-alias myip='ip -f inet addr show $ALIAS_NET_INTERFACE | grep -Po "inet \K[\d.]+"' #Update to your Network Adapter (replace wlp61s0)
+alias myip='ip -f inet addr show $ALIAS_NET_INTERFACE | grep -Po "inet \K[\d.]+"' #Update to your Network Adapter (command: ip link)
 alias tar_extract='tar -xvf'
 
 #ROS1
