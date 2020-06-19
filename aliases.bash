@@ -12,6 +12,10 @@ alias sdev='. devel/setup.bash' #Source devel folder from workspace
 alias rosdepfix='rosdep install --from-paths src --ignore-src -r -y'
 alias kill_gazebo='killall -9 gzserver gzclient'
 
+#ROS2
+alias cb='colcon build --symlink-install'
+alias cbd='colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug'
+alias sinst='. install/setup.bash'
 
 #Navigation
 alias ..='cd ..'
