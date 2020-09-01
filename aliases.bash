@@ -5,6 +5,8 @@ alias forcekill='kill -9'
 alias status='git status'
 alias myip='ip -f inet addr show $ALIAS_NET_INTERFACE | grep -Po "inet \K[\d.]+"' #Update to your Network Adapter (command: ip link)
 alias tar_extract='tar -xvf'
+alias pls='sudo'
+alias please='sudo'
 
 #ROS1
 alias cm='catkin_make -DCMAKE_BUILD_TYPE=RelWithDebInfo'
