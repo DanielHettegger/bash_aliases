@@ -7,6 +7,7 @@ alias myip='ip -f inet addr show $ALIAS_NET_INTERFACE | grep -Po "inet \K[\d.]+"
 alias tar_extract='tar -xvf'
 alias pls='sudo'
 alias please='sudo'
+alias quit='exit'
 
 #ROS1
 alias cm='catkin_make -DCMAKE_BUILD_TYPE=RelWithDebInfo'
