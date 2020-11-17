@@ -9,6 +9,9 @@ alias pls='sudo'
 alias please='sudo'
 alias quit='exit'
 
+#Git
+alias gitsubrec='git submodule update --init --recursive'
+
 #ROS1
 alias cm='catkin_make -DCMAKE_BUILD_TYPE=RelWithDebInfo'
 alias sdev='. devel/setup.bash' #Source devel folder from workspace
